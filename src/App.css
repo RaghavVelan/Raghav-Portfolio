@@ -13,6 +13,16 @@ p{
 /* App Component */
 .App{
   position: relative;
+  animation: fade 1s ease-in-out;
+}
+
+@keyframes fade {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
 }
 .App-header{
   height: 10vh;
@@ -37,6 +47,13 @@ p{
   justify-content: space-evenly;
   width: 50%;
 }
+nav>ul a{
+  transition: color 250ms ease;
+}
+nav>ul a:hover,nav>ul a:focus-within{
+  color: #f10246;
+}
+
 
 /* Home Component  font-family: "blanka";*/
 .home{
@@ -115,6 +132,7 @@ p{
     font-size: 1rem;
     transition: all 250ms ease;
   }
+
 }
 
 

@@ -19,7 +19,7 @@ function App() {
       <header className="App-header">
       <a href='#home' className='logoLink'>
         <img src={logo} alt="Raghav V" className='logo'/>
-        </a>
+      </a>
         <nav className="nav">
           <ul>
             <li><a href='#projects'>Projects</a></li>
