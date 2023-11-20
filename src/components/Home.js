@@ -1,7 +1,6 @@
 import React from 'react'
 import {about} from '../portfolio'
 import resumepdf from '../assest/resume.pdf'
-import resumeNew from '../assest/resume1.pdf'
 import resumeSvg from '../image/resume.svg'
 import github from '../image/github.svg'
 import linkedin from '../image/linkedin.svg'
@@ -23,7 +22,7 @@ export default function Home() {
 
         <div className='social'>
         {resume && (
-          <a href={resumeNew} download>
+          <a href={resumepdf} download>
               <img src={resumeSvg} alt="Resume" />
               Resume
           </a>
