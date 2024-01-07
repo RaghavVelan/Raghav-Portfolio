@@ -7,8 +7,8 @@ const about = {
   name: 'Raghav Velan',
   role: 'Front End Engineer',
   description:
-    'I am a B.TECH Information Technology graduate Based at Denkanikottai, Tamil Nadu.',
-  resume: 'https://github.com/RaghavVelan',
+    'I am a B.TECH Information Technology graduate Based at Hosur, Tamil Nadu.',
+  resume: 'https://drive.google.com/file/d/1BpZhdbYYgAGi5UzauCYyE4DUZAqShZeQ/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/raghav-velan-22408b185/',
     github: 'https://github.com/RaghavVelan',
@@ -32,18 +32,29 @@ const projects = [
     sourceCode: 'https://github.com/RaghavVelan/movie-ticket-booking',
     livePreview: 'https://movie-ticket-booking-rv.netlify.app/',
   },
- 
+  {
+    name: 'PRODUCT SEARCH',
+    description:
+      'An React JS application which consumes an third party API which allows users to search for products across all the E-Com platforms',
+    stack: ['CSS', 'JavaScript', 'React'],
+    sourceCode: 'https://github.com/RaghavVelan/Product-Search',
+    livePreview: 'https://product-search-rv.netlify.app/',
+  }
 ]
 
 const skills = [
   'HTML',
   'CSS',
   'JavaScript',
+  'JQuery',
   'TypeScript',
   'React',
   'Angular',
   'SQL',
   'C#',
+  'GIT',
+  'UNIX',
+  'MS Office'
 ]
 
 const contact = {
