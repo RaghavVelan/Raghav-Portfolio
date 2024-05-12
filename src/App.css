@@ -29,6 +29,7 @@ p{
   display: flex;
   justify-content:space-between;
   align-items: center;
+  padding: 0 2rem;
 }
 
 .logoLink{
@@ -59,6 +60,8 @@ nav>ul a:hover,nav>ul a:focus-within{
 .home{
   font-family: 'Poppins', sans-serif;
   text-align: center;
+  display: grid;
+  place-items: center;
 }
 
 .name{
@@ -78,6 +81,9 @@ nav>ul a:hover,nav>ul a:focus-within{
   font-size: 1.25rem;
   margin-bottom: 2rem;
   opacity: .8;
+  width: 100%;
+  max-width: 1000px;
+  text-align: center;
 }
 
 .social{
@@ -100,6 +106,7 @@ nav>ul a:hover,nav>ul a:focus-within{
   padding: .75rem 2rem;
   font-size: 1rem;
   transition: all 250ms ease;
+  background-color: #f1024693;
 }
 
 .social>a:hover,.social>a:focus-within{
@@ -269,12 +276,16 @@ nav>ul a:hover,nav>ul a:focus-within{
   right: 1rem;
   background-color: #f10246;
   border-radius: 100%;
-  padding: 2rem;
-  width: 30px;
-  height: 30px;
+  padding: 1rem;
+  width: 10px;
+  height: 10px;
   z-index: 10;
   opacity: .8;
   transition: all 250ms ease;
+}
+
+.upArrow img{
+  width: 10px;
 }
 
 .upArrow:hover, .upArrow:focus-within{

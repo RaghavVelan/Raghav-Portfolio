@@ -21,7 +21,7 @@ export default function Home() {
 
         <div className='social'>
         {resume && (
-          <a href={resume} target='_blank' download>
+          <a href={resume} target='_blank'>
               <img src={resumeSvg} alt="Resume" />
               Resume
           </a>
