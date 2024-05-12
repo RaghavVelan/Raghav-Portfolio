@@ -7,7 +7,7 @@ const about = {
   name: 'Raghav Velan',
   role: 'Front End Engineer',
   description:
-    'I am a B.TECH Information Technology graduate Based at Hosur, Tamil Nadu.',
+    'A passionate front-end developer with 1.6 years of experience in crafting delightful user interfaces. My journey began with a fascination for turning lines of code into visually appealing websites',
   resume: 'https://drive.google.com/file/d/1BpZhdbYYgAGi5UzauCYyE4DUZAqShZeQ/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/raghav-velan-22408b185/',
@@ -52,6 +52,8 @@ const skills = [
   'Angular',
   'SQL',
   'C#',
+  'AOS(Animate On Scroll)',
+  'Framer Motion',
   'GIT',
   'UNIX',
   'MS Office'

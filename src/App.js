@@ -32,11 +32,11 @@ function App() {
       <Projects />
       <Skills />
       <Contact />
-      <footer className='footer'>
+      {/* <footer className='footer'>
       <a href={about.social.github}>
         <p>Developed by Raghav Velan</p>
         </a>
-      </footer>
+      </footer> */}
     </div>
   );
 }
